@@ -20,4 +20,18 @@ X GND 7 250 -300 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Vin_Solderpad
+#
+DEF Vin_Solderpad J 0 40 Y Y 1 F N
+F0 "J" -200 -250 50 H V C CNN
+F1 "Vin_Solderpad" -50 -700 50 H V C CNN
+F2 "" -200 -250 50 H I C CNN
+F3 "" -200 -250 50 H I C CNN
+DRAW
+S 0 -650 -250 -350 1 1 0 N
+X GND 1 100 -550 100 L 50 50 1 1 W
+X Vin 2 100 -450 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 #End Library
